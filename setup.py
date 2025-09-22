@@ -49,10 +49,10 @@ setup(
     version=version,
     install_requires=[
         # Include dependencies here
-        'click>=7.0,<8',
+        'click>=7.0',
         'elasticsearch>=7.0.0,<8.0.0',
         'numpy',
-        'pandas==1.4',
+        'pandas>=1.4',
         'scgenome @ git+https://github.com/mondrian-scwgs/scgenome.git@alhenaloader#egg=scgenome',
         'pyyaml',
         'scikit-learn',
